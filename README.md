@@ -13,4 +13,4 @@ Example:
 ```
 strip.py 1pwc.sif A:400:_:PNM
 
-strip.py 1pwc.sif A:400:_:PNM,A:62:_:SER```
+strip.py 1pwc.sif A:400:_:PNM,A:62:_:SER
