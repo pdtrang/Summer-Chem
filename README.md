@@ -7,7 +7,7 @@ strip.py sif_file list_of_aa_residues
 
 sif_file: list of all possible interactions
 
-list_of_aa_residues: the formati-specific list of aa residues that is used as the basis for the interactions and filtered list of interactions. Comma separated.
+list_of_aa_residues: the format-specific list of aa residues that is used as the basis for the interactions and filtered list of interactions. Comma separated.
 
 Example: 
 ```
