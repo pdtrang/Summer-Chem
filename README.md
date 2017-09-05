@@ -1,4 +1,4 @@
-# Summer-Chem-2017
+# Summer-Chem
 
 ## Requirement
 
