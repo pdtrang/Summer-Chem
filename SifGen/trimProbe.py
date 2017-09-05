@@ -1,3 +1,8 @@
+'''
+Most part of this script are reused from RINerator program
+http://rinalyzer.de/rinerator.php
+'''
+
 import Bio.PDB
 import os.path
 import sys 
