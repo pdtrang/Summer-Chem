@@ -1,10 +1,10 @@
 # Model generator
 ## Interaction filter strip.py
 
-Input: sif file, format-specific list of amino acid residues (comma separated, no
+>Input: sif file, format-specific list of amino acid residues (comma separated, no
 space)
 
-Output: csv file or txt file which contains models generated from all possible
+>Output: csv file or txt file which contains models generated from all possible
 combinations of interactions
 
 sif_file: list of all possible interactions
@@ -23,9 +23,9 @@ Output can be csv file or txt file. The only difference between these two output
 
 This script takes output txt file from strip.py as input. It cannot take csv file. This script analyzes all output models from strip.py
 
-Input: output txt file from strip.py
+>Input: output txt file from strip.py
 
-Output: Output includes figures and files:
+>Output: Output includes figures and files:
 
 • Figures:
 
@@ -56,9 +56,10 @@ Example:
 
 This script takes unique sets freq.txt file from analyze models.py as an input and generates PDB files using unique models.
 
-Input: output unique sets freq.txt file file from strip.py, PDB file to trim
+>Input: output unique sets freq.txt file file from strip.py, PDB file to trim
 
-Output: PDB files
+>Output: PDB files
+
 Example:
 ```
 ./PDBgenerator.py unique_sets_freq.txt 1pwc.pdb
@@ -68,10 +69,10 @@ Example:
 
 This script automatically run all steps from previous sections.
 
-Input: sif file, format-specific list of amino acid residues, PDB file
+>Input: sif file, format-specific list of amino acid residues, PDB file
 
-Output: csv file or txt file which contains models generated from all possible
-combinations of interactions
+>Output: csv file or txt file which contains models generated from all possible combinations of interactions
+
 Example:
 ```
 ./makePDBfromUniqueModel.py pdb1pwc_h.sif A:400:_:PNM 1pwc.pdb
