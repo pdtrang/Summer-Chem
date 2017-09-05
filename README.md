@@ -66,6 +66,7 @@ Example:
 This script takes unique sets freq.txt file from analyze models.py as an input and generates PDB files using unique models.
 
 Input: output unique sets freq.txt file file from strip.py, PDB file to trim
+
 Output: PDB files
 Example:
 ```
@@ -77,6 +78,7 @@ Example:
 This script automatically run all steps from previous sections.
 
 Input: sif file, format-specific list of amino acid residues, PDB file
+
 Output: csv file or txt file which contains models generated from all possible
 combinations of interactions
 Example:
@@ -112,8 +114,9 @@ In our Sif file, only one interaction is kept; depends on which interaction is p
 This script takes a probe file as an input and generates SIF file.
 
 Input: probe file
-Require: res mcatoms dic.py should be placed in the same directory with
-probe2Sif.py
+
+Require: res mcatoms dic.py should be placed in the same directory with probe2Sif.py
+
 Output: Sif file
 
 Example: 
@@ -125,8 +128,11 @@ Example:
 There are two steps required: trim probe and generate Sif file from probe.
 
 Trim Probe:
+
 Input: similar input as RINerator program. Inputs are specified inside job script.
+
 Output: a new trimmed probe.
+
 Example: 
 ```
 ./3bwm_job.py
