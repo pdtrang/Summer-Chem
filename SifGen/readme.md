@@ -23,11 +23,9 @@ In our Sif file, only one interaction is kept; depends on which interaction is p
 ## SIF generator from probe file probe2Sif.py
 This script takes a probe file as an input and generates SIF file.
 
-Input: probe file
-
-Require: res mcatoms dic.py should be placed in the same directory with probe2Sif.py
-
-Output: Sif file
+>Input: probe file
+>Require: res mcatoms dic.py should be placed in the same directory with probe2Sif.py
+>Output: Sif file
 
 Example: 
 ```
