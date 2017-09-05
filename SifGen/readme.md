@@ -20,7 +20,7 @@ A:1017:_:HOH cnt:solvent sc A:6:_:PRO
 ```
 In our Sif file, only one interaction is kept; depends on which interaction is processed first from probe file.
 
-### SIF generator from probe file probe2Sif.py
+## SIF generator from probe file probe2Sif.py
 This script takes a probe file as an input and generates SIF file.
 
 Input: probe file
@@ -34,7 +34,7 @@ Example:
 ./probe2Sif.py 1pwc_h.probe
 ```
 
-### SIF generator from pdb and probe
+## SIF generator from pdb and probe
 There are two steps required: trim probe and generate Sif file from probe.
 
 Trim Probe:
