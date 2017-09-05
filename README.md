@@ -35,15 +35,25 @@ This script takes output txt file from strip.py as input. It cannot take csv fil
 Input: output txt file from strip.py
 
 Output: Output includes figures and files:
+
 • Figures:
+
 – all sets.png: Count for number of models by number of interactions.
+
 – neighbor.png: Residue frequency in all models.
+
 – residue in unique sets.png: Residue frequency in unique models.
+
 – residue in unique sets sorted.png: Residue frequency in unique models, sorted in descending order of frequency.
+
 – unique sets freq.png: Frequency of unique models.
+
 • Files:
+
 – id list.csv: list of all residue IDs and names.
+
 – edges by unique sets.txt: groups of interactions by each unique models.
+
 – unique sets freq.txt: frequency of unique models, ordered by frequency.
 
 Example:
