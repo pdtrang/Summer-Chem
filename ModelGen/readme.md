@@ -1,14 +1,5 @@
-# Summer-Chem-2017
-
-## Requirement
-
-1. Python 2.x
-2. Libraries: Biopython, matplotlib.
-
-For simplicity, use Anaconda to install required libraries.
-
-## Model generator
-### Interaction filter strip.py
+# Model generator
+## Interaction filter strip.py
 
 Input: sif file, format-specific list of amino acid residues (comma separated, no
 space)
@@ -28,7 +19,7 @@ or
 ```
 Output can be csv file or txt file. The only difference between these two output file formats is that CSV is easier to read by human, but it will be more difficult for the computer program to read as an input.
 
-### Models analysis analyze models.py
+## Models analysis analyze models.py
 
 This script takes output txt file from strip.py as input. It cannot take csv file. This script analyzes all output models from strip.py
 
@@ -61,7 +52,7 @@ Example:
 ./analyze models.py pdb1pwc_h-400 py.txt
 ```
 
-### PDB generator from unique models PDBgenerator.py
+## PDB generator from unique models PDBgenerator.py
 
 This script takes unique sets freq.txt file from analyze models.py as an input and generates PDB files using unique models.
 
@@ -73,7 +64,7 @@ Example:
 ./PDBgenerator.py unique_sets_freq.txt 1pwc.pdb
 ```
 
-### PDB generator from SIF and residue list makePDBfromUniqueModel.py
+## PDB generator from SIF and residue list makePDBfromUniqueModel.py
 
 This script automatically run all steps from previous sections.
 
