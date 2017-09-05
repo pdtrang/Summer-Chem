@@ -2,8 +2,8 @@
 
 ## Requirement
 
-1. Python 2.x
-2. Libraries: Biopython, matplotlib.
+1. Python 2.7
+2. Libraries: Biopython 1.69, matplotlib 2.0.2.
 
 For simplicity, use Anaconda to install required libraries.
 
