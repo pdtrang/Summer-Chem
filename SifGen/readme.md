@@ -35,9 +35,9 @@ Example:
 ```
 
 ## SIF generator from pdb and probe
-There are two steps required: trim probe and generate Sif file from probe.
+This approach reused part of source code from RINerator in trimming Probe. There are two steps required: trim probe and generate Sif file from probe.
 
-Trim Probe:
+Similar to RINerator, all input file locations must be specified in a job script.
 
 Input: similar input as RINerator program. Inputs are specified inside job script.
 
@@ -47,4 +47,4 @@ Example:
 ```
 ./3bwm_job.py
 ```
-After trimming probe, use this new probe as an input for probe2Sif.py
+
