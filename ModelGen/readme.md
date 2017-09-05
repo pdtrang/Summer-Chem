@@ -79,3 +79,22 @@ Example:
 or
 ./makePDBfromUniqueModel.py pdb1pwc_h.sif A:400:_:PNM,A:62:_:SER,A:298:_:HIS 1pwc.pdb
 ```
+
+## PDB generator from Probe probe2PDB.py
+This script generates PDb file from Probe file and list of amino acid residues
+as the basis for the interactions.
+
+>Input: Probe file, pdb to trim, list of amino acid residues (comma separated)
+
+>Output: PDB file
+
+Example:
+```
+./probe2PDB.py 1PWC_h.probe 1pwc.pdb A:400:_:PNM
+or
+./probe2PDB.py 1PWC_h.probe 1pwc.pdb 400
+or
+./probe2PDB.py 1PWC_h.probe 1pwc.pdb A:400:_:PNM,A:62:_:SER,A:298:_:HIS
+or
+./probe2PDB.py 1PWC_h.probe 1pwc.pdb 400,62,298
+```
