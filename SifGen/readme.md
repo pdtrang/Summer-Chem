@@ -24,7 +24,9 @@ In our Sif file, only one interaction is kept; depends on which interaction is p
 This script takes a probe file as an input and generates SIF file.
 
 >Input: probe file
+
 >Require: res mcatoms dic.py should be placed in the same directory with probe2Sif.py
+
 >Output: Sif file
 
 Example: 
@@ -37,9 +39,9 @@ This approach reused part of source code from RINerator in trimming Probe. There
 
 Similar to RINerator, all input file locations must be specified in a job script.
 
-Input: similar input as RINerator program. Inputs are specified inside job script.
+>Input: similar input as RINerator program. Inputs are specified inside job script.
 
-Output: a new trimmed probe.
+>Output: a new trimmed probe.
 
 Example: 
 ```
